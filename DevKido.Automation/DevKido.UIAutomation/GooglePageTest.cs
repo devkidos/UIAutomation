@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace DevKido.UIAutomation
+namespace DevKido.UIAutomation.Test
 {
     [TestClass]
     public class GooglePageTest
