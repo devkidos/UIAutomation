@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -13,7 +15,7 @@ namespace DevKido.Automation.Library
     {
         public static string CheckGooglePage()
         {
-            IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new ChromeDriver("C:\\chromedriver");
 
            driver.Url = "https://www.google.com/";
             // OR we can use below line instead of driver.Url 

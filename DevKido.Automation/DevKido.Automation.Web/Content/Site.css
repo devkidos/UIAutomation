@@ -1,0 +1,44 @@
+﻿ 
+
+
+
+/*main sidebar*/
+.skin-blue .main-header .logo {
+    height: 60px;
+}
+
+.main-header .sidebar-toggle {
+    padding: 20px;
+}
+
+.main-sidebar, .left-side {
+    padding-top: 60px;
+}
+
+.main-header .logo .logo-lg {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.main-header .logo .logo-mini {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+    .main-header .logo .logo-mini > img {
+        margin: 5px auto;
+        height: 45px;
+        width: 45px;
+    }
+
+.test-result-success {
+    visibility: hidden;
+    font-size: 16px;
+    color: green
+}
+
+.test-result-fail {
+    visibility: hidden;
+    font-size: 16px;
+    color: red
+}

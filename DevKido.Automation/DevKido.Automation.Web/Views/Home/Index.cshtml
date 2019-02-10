@@ -1,0 +1,34 @@
+﻿ 
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<section class="content-header">
+    <h1>
+        Dashboard
+    </h1>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-lg-3 col-xs-6">
+            <a href="#" id="CheckAllSitesLogin">Check All Sites Login</a>
+            <span id="demo1Success" class="fa fa-check-circle test-result-success"></span>
+            <span id="demo1Fail" class="fa fa-times-circle test-result-fail" style="margin-left:-17px"></span>
+            <span id="Loader1" style="display:none;position: absolute;width:auto;margin-left:-15px">
+                <img src="~/Content/img/loader.gif" alt="Loader" />
+            </span>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-xs-6">
+            <a href="#" id="Googlepage">Google Page</a>
+            <span id="GoogleSuccess" class="fa fa-check-circle test-result-success"></span>
+            <span id="GoogleFail" class="fa fa-times-circle test-result-fail" style="margin-left:-17px"></span>
+            <span id="GoogleLoader" style="display:none;position: absolute;width:auto;margin-left:-15px">
+                <img src="~/Content/img/loader.gif" alt="Loader" />
+            </span> 
+        </div> 
+    </div>
+</section>
+<script src="~/Scripts/Custom/Dashboard.js"></script>
